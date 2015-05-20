@@ -15,4 +15,4 @@ You can specify several **scale factors** as arguments when running the script. 
 
 ## Remarks
 This script will make 2 runs for each scale factor passed as arguments.
-You can and must change the two variables `machine` and `terminal` in the script to suit your needs.
+You can and must change the two variables `machine` and `terminals` in the script to suit your needs.
