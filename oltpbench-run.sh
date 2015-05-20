@@ -22,8 +22,8 @@ do
         echo "free -m >> results_s${param}/mem_t${terminals}.txt ; sleep 5 ;" >> results_s${param}/commands.txt
         free -m >> results_s${param}/mem_t${terminals}.txt ; sleep 5 ;
         # compress all results files and empty the results folder
-        echo "tar -cvf results_${machine}_s${param}_t${terminals}_time1800.tar results_s${param}/ ; sleep 5 ;" >> results_s${param}/commands.txt
-        tar -cvf results_${machine}_s${param}_t${terminals}_time1800.tar results_s${param}/ ; sleep 5 ;
+        echo "tar -cvf results_${machine}_s${param}_t${terminals}.tar results_s${param}/ ; sleep 5 ;" >> results_s${param}/commands.txt
+        tar -cvf results_${machine}_s${param}_t${terminals}.tar results_s${param}/ ; sleep 5 ;
         echo "rm -rf results_s${param}/* ; sleep 5 ;" >> results_s${param}/commands.txt
         rm -rf results_s${param}/* ; sleep 5 ;
 
